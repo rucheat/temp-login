@@ -1,0 +1,64 @@
+﻿.js-contact-preferences,
+.js-passwordless-authn,
+.js-multi-factor,
+.js-social-identities,
+.js-session-manager,
+.js-company-information,
+#personalInformationEditLink
+{
+	display: none;
+}
+
+#usersImportProfileButton,
+#usersProvisionButton,
+#usersDeleteButton,
+#usersAddButton
+{
+	display: none !important;
+}
+
+#userEditPersonalInfoButton,
+#userTwoFactorAuthenticationStatus-content,
+#userTabGroups
+{
+	display: none !important;
+}
+
+#logOnFormSubmit {
+	background-color:#da251d;
+	border-color:#da251d;
+	color:#fff;
+}
+.ids-button--primary {
+	background-color:#da251d;
+	border-color:#da251d;
+	color:#fff;
+}
+.ids-button--primary:hover {
+	background-color:#da251d;
+	border-color:#da251d;
+	color:#fff;
+}
+a.ids-button--primary{
+	background-color:#da251d;
+	border-color:#da251d;
+	color:#fff;
+}
+a.ids-button--primary:hover{
+	background-color:#da251d;
+	border-color:#da251d;
+	color:#fff;
+}
+.ids-login-sp {
+	padding-top:0px;
+}
+
+.ids-form--login {
+	padding-top:120px;
+}
+.ids-login-sp__sp-name::after, .fd-has-display-none::after{
+	content: "Welcome to MyTTC | Home";
+}
+.ids-login-sp{
+	text-align:center;
+}
